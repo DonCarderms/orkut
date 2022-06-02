@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#d4dded ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1{
+    color: #f114ba;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.fotos{
+    width: 600px;
+    text-align: center;
+    margin-top: 50px;
+}
+.fotos img{
+    margin-top: 10PX;
+    width: 100%;
+}
+#login{
+    
+    /* background: url(../img/Logo_ORKUT.svg.png) no-repeat center top;
+    background-size: 80px; */
+    /* border-radius: 10px; */
+    padding: 50px 20px;
+    margin-top: 30px;
+    text-align: center;
+    width: 450px;
+    height: 500px;
+    background-color:hsl(0, 0%, 100%);
+}
+#logo{
+    margin-bottom: 20px;
+}
+#login img{
+    width: 40%;
+}
+
+
+input{
+    border-radius: 5px;
+    border:1px solid rgb(141, 141, 141);
+    margin: 10px;
+    color: rgb(44, 44, 44);
+    padding: 5px 20px;
+}
+.input-responsive{
+    width: 60%;
+}
+input:focus{   
+    outline: 0;
+    border:1px solid #f114ba;
+    box-shadow: 0px 0px 1px 5px #ff79dd;
+}
+#checkbox:focus{
+    box-shadow: 0 0 0 0;
+}
+.cor-rosa{
+    color: #f114ba;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+.entrar{
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(38, 4, 187);
+}
+.entra-margin{
+  margin-top: 5px;
+}
+p{
+    margin: 20px 0;
+    font-size: 0.8em;
+    font-weight: 700;  
+}
+label{
+    color: rgb(126, 125, 125);
+    font-weight: 600;
+}
+span{
+    font-size: 0.9em;
+    font-weight: 700;   
+}
+
+button{
+    border-radius: 5px;
+    font-weight: 700;
+    color: #f114ba;
+    border: none;
+    background: #d4dded;
+    cursor: pointer;
+    margin: 20px 0;
+    padding: 10px 40px;
+}
+button:hover{
+    color: #d4dded;
+    background-color: #ff79dd;
+}
+
+footer{
+    margin-top: 20px;
+}
+footer a{
+    color: #e04d72;
+    text-decoration: none;
+}
